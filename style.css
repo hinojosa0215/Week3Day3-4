@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(vegetables.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    ;
+}
+.logo h1{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    float: left;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+    font-weight: lighter;
+}
+.nav a{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.hrcontainertop{
+    margin: 20px 101px 0px 38px;
+}
+.nav{
+    padding: 30px 90px;
+}
+.banner-text{
+    color: white;
+    text-align: center;
+    margin: 10px;
+    margin-top: 300px;
+}
+.hrcontainer{
+    display: flex;
+    align-items: center;
+    margin-left: 710px;
+    margin-bottom: 10px;
+}
+.banner-text h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+.banner-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+#secondpart{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.breadcontainer{
+    display: flex;
+    float: left;
+    width: 800px;
+    height: 500px;
+    background: url(bread.jpg),black;;
+    background-size: 100%;
+}
+.breadtextcontainer{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 1103px;
+    background-color: black;
+    color: white;
+}
+.breadtextcontainer h1{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    font-size: 50px;
+}
+.breadtextcontainer p{
+    margin-left: 100px;
+    font-size: 30px;
+}
+.pineapplecontainer{
+    display: flex;
+    float: right;
+    width: 800px;
+    height: 500px;
+    background: url(pineapple.jpg);
+    background-size: 100%;
+}
+.pineappletextcontainer{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 1103px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}.pineappletextcontainer h1{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    font-size: 50px;
+}
+.pineappletextcontainer p{
+    margin-left: 100px;
+    font-size: 30px;
+}
+.pastacontainer{
+    display: flex;
+    float: left;
+    width: 800px;
+    height: 500px;
+    background: url(pasta.jpg),rgb(17, 17, 17);
+    background-size: 100%;
+}
+.pastatextcontainer{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 1103px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.pastatextcontainer h1{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    font-size: 50px;
+}
+.pastatextcontainer p{
+    margin-left: 100px;
+    font-size: 30px;
+}
